@@ -1,0 +1,87 @@
+<svg width="100%" height="220" viewBox="0 0 850 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Glow Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 38px;
+      font-weight: 800;
+      fill: url(#text-grad);
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .pill-text {
+      font-family: 'Fira Code', Consolas, Monaco, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #38bdf8;
+    }
+  </style>
+
+  <!-- Background Base with Rounded Corners -->
+  <rect width="850" height="220" rx="16" fill="url(#bg-grad)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Ambient Light / Decorative Glow Spheres -->
+  <circle cx="750" cy="40" r="90" fill="#2563eb" opacity="0.25" filter="url(#glow)" />
+  <circle cx="100" cy="180" r="80" fill="#7c3aed" opacity="0.2" filter="url(#glow)" />
+
+  <!-- Decorative Wave / Accent Line at the Bottom -->
+  <path d="M 0 200 C 200 180, 400 215, 600 195 C 700 185, 800 205, 850 200 L 850 220 L 0 220 Z" fill="url(#accent-grad)" opacity="0.35" />
+  <path d="M 0 208 C 250 195, 500 215, 850 205 L 850 220 L 0 220 Z" fill="#2563eb" opacity="0.4" />
+
+  <!-- Content -->
+  <!-- Top Badge -->
+  <g transform="translate(50, 32)">
+    <rect width="210" height="28" rx="14" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+    <circle cx="14" cy="14" r="4" fill="#38bdf8" />
+    <text x="26" y="19" class="pill-text">.NET BACKEND ENGINEER</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="50" y="105" class="title">Hi there, I'm Ahmed Salah 👋</text>
+
+  <!-- Subtitle -->
+  <text x="50" y="142" class="subtitle">Software Engineer  •  C#  •  .NET 9  •  EF Core  •  SQL Server</text>
+
+  <!-- Tech tags bar -->
+  <g transform="translate(50, 162)">
+    <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" fill="#64748b" font-weight="500">Focus:</text>
+    <text x="46" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" fill="#cbd5e1" font-weight="600">Clean Architecture  |  Scalable APIs  |  High-Performance Data Access</text>
+  </g>
+
+  <!-- Right Decorative Icon / Brand Accent -->
+  <g transform="translate(730, 85)" opacity="0.6">
+    <rect width="64" height="64" rx="16" fill="rgba(37, 99, 235, 0.15)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5" />
+    <path d="M 22 32 L 28 26 M 22 32 L 28 38 M 42 32 L 36 26 M 42 32 L 36 38 M 33 22 L 31 42" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=220&section=header&text=Hi%20there,%20I'm%20Ahmed%20Salah%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20.NET%20%26%20Backend%20Developer&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
+  <a href="https://github.com/AhmedSalah-hub">
+    <img src="https://raw.githubusercontent.com/AhmedSalah-hub/AhmedSalah-hub/main/header.svg" width="100%" alt="Ahmed Salah - Software Engineer" />
+  </a>
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&width=550&lines=Building+robust+backend+architectures;Specialized+in+C%23+%26+.NET+9;Database+Design+%26+Entity+Framework+Core;Passionate+about+Clean+Architecture" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&width=550&lines=Building+robust+backend+architectures;Specialized+in+C%23+%26+.NET+9;Database+Design+%26+Entity+Framework+Core;Passionate+about+Clean+Architecture" alt="Typing Subtitle" />
 </div>
 
 <div align="center">
@@ -118,8 +118,4 @@ public class SoftwareEngineer
 
 <br/>
 
----
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=100&section=footer" width="100%" alt="Footer Banner" />
-</div>
